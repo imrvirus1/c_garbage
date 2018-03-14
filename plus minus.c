@@ -19,8 +19,6 @@ int main() {
        scanf("%d", &arr[i]);            //here i input n number
     }
 
- //   plusMinus(arr,n);
-
     count_pos = 0, count_neg = 0, count_zero = 0;
 
     for (i = 0 ; i < n; i++) {
