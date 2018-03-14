@@ -4,7 +4,7 @@
 
 int main() {
 
-    int n, *arr, m;
+    int n, *arr, m;         //here i declare a pointer *arr for array
 
     int i, count_pos, count_neg, count_zero;
 
