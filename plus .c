@@ -9,23 +9,23 @@ int main()
     scanf("%d", &n);
 
     for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);           //input n number with arr[i]
 
         if (arr[i] > 0)
-            c_pos++;
+            c_pos++;                //here count all positive number
 
         else if (arr[i] < 0)
-            c_neg++;
+            c_neg++;                //here count all negative number
 
         else
-            c_zero++;
+            c_zero++;               //here count all zero
     }
 
-    positive = c_pos / (double) n;
-    negative = c_neg / (double) n;
-    zero = c_zero / (double) n;
+    positive = c_pos / (double) n;      // calculate all positive / n
+    negative = c_neg / (double) n;      //calculate all negative / n
+    zero = c_zero / (double) n;         // calculate all zero / n
 
-    printf("%.6lf\n%.6lf\n%.6lf\n", positive, negative, zero);
+    printf("%.6lf\n%.6lf\n%.6lf\n", positive, negative, zero);          //print the output here for all
 
 
     return 0;
