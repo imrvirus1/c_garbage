@@ -5,7 +5,6 @@ int sub(int a, int b);
 int prod(int a, int b);
 double divide(int a, int b);
 
-
 int main()
 {
     int num1, num2;
@@ -58,7 +57,6 @@ int mul(int a, int b)
 {
     return a * b;
 }
-
 
 double divide(int a, int b)
 {
