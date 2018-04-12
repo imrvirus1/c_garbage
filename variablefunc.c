@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<ctype.h>
 
 int valid_variable(char * str);
 
@@ -15,9 +16,11 @@ int main()
     if (flag == 0) {
         printf("This variable is Valid\n");
     }
+    
     else {
         printf("This is not Valid variable\n");
     }
+    
     return 0;
 }
 
